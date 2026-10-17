@@ -1,0 +1,2 @@
+# Required only to rebuild JSONL exports; validation uses the standard library.
+PyYAML>=6.0,<7.0

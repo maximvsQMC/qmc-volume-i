@@ -1,0 +1,48 @@
+{
+  "format": "qmc-huggingface-dataset/1.0",
+  "dataset_id": "QMC-VOLUME-I",
+  "dataset_version": "2.0",
+  "source_file": "QMC_Volume_I_Training_Dataset_Version_2.0.md",
+  "source_file_sha256": "d0ea1cacf0c4aa7f0e04970e2888b104fe253f8208870a0f6c33be1cadb77b6b",
+  "record_count": 100,
+  "chunk_count": 1282,
+  "medium_essay_count": 99,
+  "qrt_primary_record_count": 1,
+  "nested_qrt_source_records_referenced_not_duplicated": 14,
+  "domain_counts": {
+    "D01": 6,
+    "D02": 15,
+    "D03": 12,
+    "D04": 4,
+    "D05": 8,
+    "D06": 3,
+    "D07": 14,
+    "D08": 12,
+    "D09": 6,
+    "D10": 12,
+    "D11": 6,
+    "D12": 2
+  },
+  "dependency_edge_count": 115,
+  "total_body_word_count": 752209,
+  "total_body_char_count": 5017806,
+  "concatenated_body_sha256": "e3f0a5f3bc75a9606502c0aaf339a152d832177480ae835587eb2deff152299a",
+  "reading_order": "training_order ascending, not source chronology",
+  "language_note": "primary source text predominantly English; no passage-level language labels",
+  "copyright_note": "Author-selected CC BY 4.0 for original author-controlled materials distributed in this HF release; third-party rights remain separate. Canonical source snapshot historical metadata preserved.",
+  "hf_configs": {
+    "full_text": "qmc_full_text.jsonl",
+    "rag_chunks": "qmc_rag_chunks.jsonl"
+  },
+  "splits_note": "train is the only storage split, not an independently curated model training benchmark",
+  "record_ids_added_since_v1_0": [
+    "QMC-V1-096",
+    "QMC-V1-097",
+    "QMC-V1-098",
+    "QMC-V1-099",
+    "QMC-V1-100"
+  ],
+  "license": "cc-by-4.0",
+  "huggingface_dataset_url": "https://huggingface.co/datasets/MaximvsQMC/qmc-volume-i",
+  "hf_repository_layout": "browser_upload_flat_root_unique_data_filenames"
+}
